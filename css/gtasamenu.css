@@ -318,3 +318,24 @@
  .menu-footer { padding: 12px; }
 }
 .menu-disable { display: none; }
+/* Working settings controls, keyboard focus and accessible layout */
+.menu-option > button { font: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.menu-option > button:hover, .menu-option > button:focus-visible, .menu-option > button[aria-pressed=true] { color: rgb(172,203,241); }
+.menu-option > button:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.settings-panel { color: #accbf1; font: 1rem Arial,sans-serif; width: min(90%, 600px); margin: 12px auto; padding: 18px; background: rgba(0,0,0,.82); border: 1px solid #40546a; display: grid; gap: 15px; line-height: 1.5; }
+.settings-panel p { margin: 0; }
+.settings-panel form { display: grid; gap: 12px; }
+.settings-panel input[type=text], .settings-panel select { width: 100%; min-width: 0; padding: 10px; color: #fff; background: #171e27; border: 1px solid #8199b4; }
+.settings-panel button { padding: 9px 14px; color: #accbf1; background: #171e27; border: 1px solid #8199b4; cursor: pointer; }
+.settings-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.menu-option { font-size: calc(24px * var(--menu-scale,1)); }
+.menu-option--game { font-size: calc(36px * var(--menu-scale,1)); }
+.menu-container--language .menu-option { transform: none; }
+.menu-map--legend { min-width: 0; min-height: 0; }
+.menu-map--legend-items { min-width: 0; }
+.menu-map--legend-item { overflow-wrap: anywhere; }
+@media(max-width:700px){ .menu-option { font-size: calc(clamp(18px,5vw,24px) * var(--menu-scale,1)); } .menu-option--game {font-size:calc(24px * var(--menu-scale,1));} }
+
+.menu-container--options { width: min(100%, 680px); height: auto; min-height: 100%; }
+.menu-container--options .menu-option { transform: none; margin: 10px 12px; text-align: center; }
+.menu-option a, .menu-option button { overflow-wrap: anywhere; }

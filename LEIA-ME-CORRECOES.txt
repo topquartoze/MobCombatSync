@@ -1,1 +1,9 @@
-Extraia este ZIP sobre a pasta original, substituindo os arquivos existentes. Os recursos originais (imagens, fontes e sons) devem permanecer no lugar. O projeto é uma demonstração de menu, não o jogo GTA. Opções não implementadas foram sinalizadas; não há integração com saves reais. A opção Yes encerra a demonstração visual, sem fechar a aba.
+GTA SA MENU — revisão completa
+
+Este ZIP inclui o menu original e os recursos que o usuário forneceu. Abra index.html ou publique a pasta em um servidor estático. Recomenda-se HTTP/HTTPS para que as preferências sejam compartilhadas entre páginas; file:// depende do navegador.
+
+NEW GAME: no primeiro clique, configure a URL ou o caminho relativo de uma cópia do jogo à qual você tenha acesso. Também é possível definir gameUrl em js/game-config.js antes de publicar. Options > Game connection permite alterar ou limpar a URL. Não há um jogo executável incluído, nem integração com saves reais. As páginas Load/Delete Game informam isso, sem saves falsos.
+
+Controller Setup: setas, Enter e Esc no menu. Audio Setup: volume e som. Display Setup: tamanho de texto e tela cheia quando autorizada pelo navegador. Language: seis idiomas para a interface do menu (nomes próprios e créditos preservados). Preferências armazenadas no navegador quando permitido.
+
+Validação: sintaxe de JS, referências de arquivos locais, lógica simulada via Node.js. Teste visual em navegador não concluído (política de bloqueio do ambiente).
