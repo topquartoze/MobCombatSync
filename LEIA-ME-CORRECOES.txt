@@ -1,0 +1,1 @@
+Extraia este ZIP sobre a pasta original, substituindo os arquivos existentes. Os recursos originais (imagens, fontes e sons) devem permanecer no lugar. O projeto é uma demonstração de menu, não o jogo GTA. Opções não implementadas foram sinalizadas; não há integração com saves reais. A opção Yes encerra a demonstração visual, sem fechar a aba.

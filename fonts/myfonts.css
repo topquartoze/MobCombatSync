@@ -4,7 +4,7 @@
 	src: url('Beckett/Beckett.eot?#iefix') format('embedded-opentype'),
 		url('Beckett/Beckett.woff2') format('woff2'),
 		url('Beckett/Beckett.woff') format('woff'),
-		url('Beckett/Beckett.ttf') format('truetype'),
+		url('Beckett/Beckett.TTF') format('truetype'),
 		url('Beckett/Beckett.svg#Beckett') format('svg');
 	font-weight: 100;
 	font-style: normal;
